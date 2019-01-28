@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group>
+        <item
+            android:id="@+id/nav_all_trans"
+            android:icon="@drawable/ic_transaction"
+            android:title="All Transactions"/>
+
+        <item
+            android:id="@+id/nav_cat_expense"
+            android:icon="@drawable/ic_expense"
+            android:title="Expense Category"/>
+
+        <item
+            android:id="@+id/nav_cat_income"
+            android:icon="@drawable/ic_income"
+            android:title="Income Category"/>
+    </group>
+
+</menu>

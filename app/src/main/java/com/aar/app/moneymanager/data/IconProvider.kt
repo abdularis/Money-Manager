@@ -1,0 +1,156 @@
+package com.aar.app.moneymanager.data
+
+import com.aar.app.moneymanager.R
+
+data class IconData(
+        val key: String,
+        val id: Int
+)
+
+class IconProvider {
+
+    companion object {
+        val icons = arrayOf(
+                IconData("education_1", R.drawable.ic_cat_education_1),
+                IconData("education_2", R.drawable.ic_cat_education_2),
+                IconData("education_3", R.drawable.ic_cat_education_3),
+                IconData("education_4", R.drawable.ic_cat_education_4),
+                IconData("education_5", R.drawable.ic_cat_education_5),
+                IconData("electronics_1", R.drawable.ic_cat_electronics_1),
+                IconData("electronics_2", R.drawable.ic_cat_electronics_2),
+                IconData("electronics_3", R.drawable.ic_cat_electronics_3),
+                IconData("electronics_4", R.drawable.ic_cat_electronics_4),
+                IconData("electronics_5", R.drawable.ic_cat_electronics_5),
+                IconData("electronics_6", R.drawable.ic_cat_electronics_6),
+                IconData("entertainment_1", R.drawable.ic_cat_entertainment_1),
+                IconData("entertainment_2", R.drawable.ic_cat_entertainment_2),
+                IconData("entertainment_3", R.drawable.ic_cat_entertainment_3),
+                IconData("entertainment_4", R.drawable.ic_cat_entertainment_4),
+                IconData("entertainment_5", R.drawable.ic_cat_entertainment_5),
+                IconData("entertainment_6", R.drawable.ic_cat_entertainment_6),
+                IconData("entertainment_7", R.drawable.ic_cat_entertainment_7),
+                IconData("entertainment_8", R.drawable.ic_cat_entertainment_8),
+                IconData("entertainment_9", R.drawable.ic_cat_entertainment_9),
+                IconData("entertainment_10", R.drawable.ic_cat_entertainment_10),
+                IconData("entertainment_11", R.drawable.ic_cat_entertainment_11),
+                IconData("entertainment_12", R.drawable.ic_cat_entertainment_12),
+                IconData("entertainment_13", R.drawable.ic_cat_entertainment_13),
+                IconData("entertainment_14", R.drawable.ic_cat_entertainment_14),
+                IconData("entertainment_15", R.drawable.ic_cat_entertainment_15),
+                IconData("entertainment_16", R.drawable.ic_cat_entertainment_16),
+                IconData("entertainment_17", R.drawable.ic_cat_entertainment_17),
+                IconData("entertainment_18", R.drawable.ic_cat_entertainment_18),
+                IconData("family_1", R.drawable.ic_cat_family_1),
+                IconData("family_2", R.drawable.ic_cat_family_2),
+                IconData("family_3", R.drawable.ic_cat_family_3),
+                IconData("family_4", R.drawable.ic_cat_family_4),
+                IconData("finance_1", R.drawable.ic_cat_finance_1),
+                IconData("finance_2", R.drawable.ic_cat_finance_2),
+                IconData("finance_3", R.drawable.ic_cat_finance_3),
+                IconData("finance_4", R.drawable.ic_cat_finance_4),
+                IconData("finance_5", R.drawable.ic_cat_finance_5),
+                IconData("finance_6", R.drawable.ic_cat_finance_6),
+                IconData("finance_7", R.drawable.ic_cat_finance_7),
+                IconData("finance_8", R.drawable.ic_cat_finance_8),
+                IconData("finance_9", R.drawable.ic_cat_finance_9),
+                IconData("finance_10", R.drawable.ic_cat_finance_10),
+                IconData("finance_11", R.drawable.ic_cat_finance_11),
+                IconData("finance_12", R.drawable.ic_cat_finance_12),
+                IconData("finance_13", R.drawable.ic_cat_finance_13),
+                IconData("finance_14", R.drawable.ic_cat_finance_14),
+                IconData("finance_15", R.drawable.ic_cat_finance_15),
+                IconData("fitnes_1", R.drawable.ic_cat_fitnes_1),
+                IconData("fitnes_2", R.drawable.ic_cat_fitnes_2),
+                IconData("fitnes_3", R.drawable.ic_cat_fitnes_3),
+                IconData("fitnes_4", R.drawable.ic_cat_fitnes_4),
+                IconData("fitnes_5", R.drawable.ic_cat_fitnes_5),
+                IconData("food_1", R.drawable.ic_cat_food_1),
+                IconData("food_2", R.drawable.ic_cat_food_2),
+                IconData("food_3", R.drawable.ic_cat_food_3),
+                IconData("food_4", R.drawable.ic_cat_food_4),
+                IconData("food_5", R.drawable.ic_cat_food_5),
+                IconData("food_6", R.drawable.ic_cat_food_6),
+                IconData("food_7", R.drawable.ic_cat_food_7),
+                IconData("food_8", R.drawable.ic_cat_food_8),
+                IconData("food_9", R.drawable.ic_cat_food_9),
+                IconData("food_10", R.drawable.ic_cat_food_10),
+                IconData("food_11", R.drawable.ic_cat_food_11),
+                IconData("food_12", R.drawable.ic_cat_food_12),
+                IconData("food_13", R.drawable.ic_cat_food_13),
+                IconData("food_14", R.drawable.ic_cat_food_14),
+                IconData("food_15", R.drawable.ic_cat_food_15),
+                IconData("food_16", R.drawable.ic_cat_food_16),
+                IconData("food_17", R.drawable.ic_cat_food_17),
+                IconData("food_18", R.drawable.ic_cat_food_18),
+                IconData("food_19", R.drawable.ic_cat_food_19),
+                IconData("food_20", R.drawable.ic_cat_food_20),
+                IconData("food_21", R.drawable.ic_cat_food_21),
+                IconData("food_22", R.drawable.ic_cat_food_22),
+                IconData("furniture_1", R.drawable.ic_cat_furniture_1),
+                IconData("furniture_2", R.drawable.ic_cat_furniture_2),
+                IconData("furniture_3", R.drawable.ic_cat_furniture_3),
+                IconData("furniture_4", R.drawable.ic_cat_furniture_4),
+                IconData("furniture_5", R.drawable.ic_cat_furniture_5),
+                IconData("furniture_6", R.drawable.ic_cat_furniture_6),
+                IconData("furniture_7", R.drawable.ic_cat_furniture_7),
+                IconData("furniture_8", R.drawable.ic_cat_furniture_8),
+                IconData("life_1", R.drawable.ic_cat_life_1),
+                IconData("life_2", R.drawable.ic_cat_life_2),
+                IconData("life_3", R.drawable.ic_cat_life_3),
+                IconData("medical_1", R.drawable.ic_cat_medical_1),
+                IconData("medical_2", R.drawable.ic_cat_medical_2),
+                IconData("medical_3", R.drawable.ic_cat_medical_3),
+                IconData("medical_4", R.drawable.ic_cat_medical_4),
+                IconData("medical_5", R.drawable.ic_cat_medical_5),
+                IconData("medical_6", R.drawable.ic_cat_medical_6),
+                IconData("medical_7", R.drawable.ic_cat_medical_7),
+                IconData("medical_8", R.drawable.ic_cat_medical_8),
+                IconData("medical_9", R.drawable.ic_cat_medical_9),
+                IconData("medical_10", R.drawable.ic_cat_medical_10),
+                IconData("medical_11", R.drawable.ic_cat_medical_11),
+                IconData("medical_12", R.drawable.ic_cat_medical_12),
+                IconData("shopping_1", R.drawable.ic_cat_shopping_1),
+                IconData("shopping_2", R.drawable.ic_cat_shopping_2),
+                IconData("shopping_3", R.drawable.ic_cat_shopping_3),
+                IconData("shopping_4", R.drawable.ic_cat_shopping_4),
+                IconData("shopping_5", R.drawable.ic_cat_shopping_5),
+                IconData("shopping_6", R.drawable.ic_cat_shopping_6),
+                IconData("shopping_7", R.drawable.ic_cat_shopping_7),
+                IconData("shopping_8", R.drawable.ic_cat_shopping_8),
+                IconData("shopping_9", R.drawable.ic_cat_shopping_9),
+                IconData("shopping_10", R.drawable.ic_cat_shopping_10),
+                IconData("transport_1", R.drawable.ic_cat_transport_1),
+                IconData("transport_2", R.drawable.ic_cat_transport_2),
+                IconData("transport_3", R.drawable.ic_cat_transport_3),
+                IconData("transport_4", R.drawable.ic_cat_transport_4),
+                IconData("transport_5", R.drawable.ic_cat_transport_5),
+                IconData("transport_6", R.drawable.ic_cat_transport_6),
+                IconData("transport_7", R.drawable.ic_cat_transport_7),
+                IconData("transport_8", R.drawable.ic_cat_transport_8),
+                IconData("transport_9", R.drawable.ic_cat_transport_9),
+                IconData("transport_10", R.drawable.ic_cat_transport_10),
+                IconData("transport_11", R.drawable.ic_cat_transport_11),
+                IconData("transport_12", R.drawable.ic_cat_transport_12),
+                IconData("transport_13", R.drawable.ic_cat_transport_13),
+                IconData("transport_14", R.drawable.ic_cat_transport_14),
+                IconData("transport_15", R.drawable.ic_cat_transport_15),
+                IconData("transport_16", R.drawable.ic_cat_transport_16),
+                IconData("transport_17", R.drawable.ic_cat_transport_17),
+                IconData("transport_18", R.drawable.ic_cat_transport_18)
+        )
+
+        val DEFAULT_ICON = icons[0]
+
+        private val iconsMap by lazy {
+            val map = HashMap<String, Int>()
+            icons.forEach { map[it.key] = it.id }
+            map
+        }
+
+        @JvmStatic fun findIconId(key: String): Int {
+            return if (iconsMap.containsKey(key)) iconsMap[key]!! else DEFAULT_ICON.id
+        }
+
+    }
+
+}

@@ -1,7 +1,7 @@
 package com.aar.app.moneymanager.common.easyadapter
 
-import android.support.annotation.LayoutRes
-import android.support.v7.widget.RecyclerView
+import androidx.annotation.LayoutRes
+import androidx.recyclerview.widget.RecyclerView
 import android.util.SparseArray
 import android.view.LayoutInflater
 import android.view.View
@@ -28,7 +28,7 @@ class SimpleAdapterDelegate<T>(modelClass: Class<T>, @param:LayoutRes private va
         fun onClick(model: T, view: View)
     }
 
-    class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+    class ViewHolder(itemView: View) : androidx.recyclerview.widget.RecyclerView.ViewHolder(itemView) {
 
         private val cache = SparseArray<View>()
 

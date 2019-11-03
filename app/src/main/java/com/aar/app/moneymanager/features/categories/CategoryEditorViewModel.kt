@@ -1,6 +1,6 @@
 package com.aar.app.moneymanager.features.categories
 
-import android.arch.lifecycle.ViewModel
+import androidx.lifecycle.ViewModel
 import com.aar.app.moneymanager.data.CategoryRepository
 import com.aar.app.moneymanager.data.IconData
 import com.aar.app.moneymanager.data.IconProvider

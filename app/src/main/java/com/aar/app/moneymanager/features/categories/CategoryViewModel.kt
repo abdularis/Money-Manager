@@ -1,7 +1,7 @@
 package com.aar.app.moneymanager.features.categories
 
-import android.arch.lifecycle.MutableLiveData
-import android.arch.lifecycle.ViewModel
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
 import android.util.Log
 import com.aar.app.moneymanager.data.CategoryRepository
 import com.aar.app.moneymanager.model.Category

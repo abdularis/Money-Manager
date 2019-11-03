@@ -7,7 +7,7 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center">
 
-    <android.support.constraint.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="52dp"
         android:layout_height="52dp"
         android:layout_gravity="center"
@@ -33,5 +33,5 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/ic_check"/>
-    </android.support.constraint.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

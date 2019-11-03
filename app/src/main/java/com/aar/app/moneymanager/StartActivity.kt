@@ -1,7 +1,7 @@
 package com.aar.app.moneymanager
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.aar.app.moneymanager.features.MainActivity
 import com.firebase.ui.auth.AuthUI
